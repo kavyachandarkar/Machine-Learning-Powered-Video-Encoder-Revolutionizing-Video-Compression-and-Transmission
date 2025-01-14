@@ -1,0 +1,49 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\geometry{top=0in, bottom=1in, left=1in, right=1in} % Remove top margin
+
+% Title formatting
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{0.2em}{}
+
+\begin{document}
+
+% Title and Author Information
+\title{\textbf{Machine Learning-Driven Advances in Video Encoding and Compression
+}}
+\author{Kavya Chandrakar \\ \textit{Kalinga Institute of Industrial technology} \\ \href{mailto:22052030@kiit.ac.in}{22052030@kiit.ac.in}}
+\date{}
+\maketitle
+
+% Add horizontal line after title
+\hrule
+\vspace{0.6em}
+
+% Abstract Section
+\begin{abstract}
+Machine learning-powered video encoders are redefining the way video data is compressed and transmitted by using sophisticated algorithms that surpass the efficiency of conventional techniques. This study delves into the contributions of machine learning models, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers, in analyzing spatial and temporal features of video frames. These models enable highly efficient compression methods while maintaining superior visual quality. Through a comprehensive review of literature from prominent databases such as Springer Link, ScienceDirect, Scopus, IEEE Digital Library, and Web of Science, this paper identifies significant advancements and trends within this field.  
+\vspace{0.3em}
+\item[Keywords - ]Machine learning-powered video encoders, Video transmission, Convolutional neural networks (CNNs), Video compression,
+ Recurrent neural networks (RNNs)
+\end{abstract}
+% Add horizontal line
+\vspace{0.3em}
+\hrule
+\vspace{0.3em}
+
+% References Section
+\section*{References}
+
+\begin{enumerate}
+   \item [\textbf{[1]}] Zhang, Yun, & Kwong, Sam, & Wang, Shiqi. (2019). Machine Learning based Video Coding Optimizations: A Survey. \textit{Information Sciences}, 506. 10.1016/j.ins.2019.07.096.
+   \item [\textbf{[2]}] Liu, Dong, Li, Yue, Lin, Jianping, Li, Houqiang, & Wu, Feng. (2019). Deep Learning-Based Video Coding: A Review and A Case Study. \textit{arXiv preprint arXiv:1904.12462}. Retrieved from \url{https://arxiv.org/pdf/1904.12462}.
+   \item [\textbf{[3]}] De Cock, Jan. (Year Unknown). Artificial Intelligence in Real-Time Video Encoding: From Theoretical Promises to Operational Gains. \textit{A Technical Paper prepared for SCTE}. Synamedia, Luipaardstraat 
+   \item [\textbf{[4]}] Fernández-Escribano, Gerardo, Jillani, Rashad, Holder, Christopher, Kalva, Hari, Martínez, José, and Cuenca, Pedro. (2008). Video Encoding and Transcoding Using Machine Learning. \textit{Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}, pp. 53-62. \url{https://doi.org/10.1145/1509212.1509219}.
+   \item [\textbf{[5]}] S. Zvezdakov, D. Kondranin, and D. Vatolin, "Machine-Learning-Based Method for Content-Adaptive Video Encoding," \textit{2021 Picture Coding Symposium (PCS)}, Bristol, United Kingdom, 2021, pp. 1-5, doi: 10.1109/PCS50896.2021.9477507. 
+
+
+\end{enumerate}
+
+\end{document}
